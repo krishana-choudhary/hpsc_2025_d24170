@@ -20,4 +20,7 @@ def sqrt2(x, debug = False):
 		
 	return s
 	
-
+if __name__ == "__main__":
+	print("In main, executing test1() from test_case.py")
+	from test_case import test1
+	test1()
